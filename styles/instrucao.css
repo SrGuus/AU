@@ -1,0 +1,60 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("../imagens/fundo.jpg");
+    background-attachment: fixed;
+}
+
+IMG.logo {
+    margin-left: 32%;
+    width: 400px;
+    height: 210px;
+    max-width: 560px;
+}
+
+#instrucao {
+    line-height: 150%;
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    margin-left: 32%;
+
+    border: 3px solid;
+    padding: 11px 21px;
+    background: #201D97;
+    border-radius: 8px;
+   
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+}
+
+#retornar {
+    display: flex;
+    margin-left: 41%;
+    margin-top: 6%;
+    width: 100%;
+    max-width: 200px;
+    
+    justify-content: center;
+    border: 2px solid;
+    padding: 11px 21px;
+    background-color: #b6121d;
+    border-radius: 8px;
+    transition: 400ms;
+    cursor: pointer;
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#retornar:hover {
+    background-color: violet;
+}
